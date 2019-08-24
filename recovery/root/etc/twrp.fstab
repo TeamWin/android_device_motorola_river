@@ -20,6 +20,7 @@
 /oem            ext4         /dev/block/bootdevice/by-name/oem            flags=backup=1;display="OEM";slotselect;wipeingui
 /dsp            ext4         /dev/block/bootdevice/by-name/dsp            flags=backup=1;display="DSP";slotselect
 /metadata       emmc         /dev/block/bootdevice/by-name/metadata
+/spl1           emmc         /dev/block/bootdevice/by-name/spl1           flags=slotselect
 /logo           emmc         /dev/block/bootdevice/by-name/logo           flags=backup=1;display="Boot Logo";slotselect;flashimg=1
 /keymaster      emmc         /dev/block/bootdevice/by-name/keymaster      flags=slotselect
 
