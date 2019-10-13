@@ -19,6 +19,7 @@ on property:modules.loaded=1
 
 on boot
     setprop sys.usb.config adb
+    mkdir /system_root/system
 
 service prepdecrypt /sbin/prepdecrypt.sh
     oneshot
