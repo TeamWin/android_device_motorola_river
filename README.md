@@ -22,6 +22,8 @@ Front Camera | 8 MP 1.12µm, HDR
 ### Kernel Source
 To Be Released
 
+See /prebuilt/README.md
+
 ### How to compile
 
 ```sh
